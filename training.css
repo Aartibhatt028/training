@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 220px;
+    height: 140px;
+    font-size: 50px;
+
+}
+
+h1 {
+    font-size: 29px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 6px;
+    font-size: 19px;
+}
+
+input, select, textarea {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    background-color: #e7f9e7;
+    border: 1px solid #4CAF50;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.success-message h2 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+.success-message p {
+    color: #333;
+}
